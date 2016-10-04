@@ -1,19 +1,15 @@
 #Natas1
 =======
-
-Use some sort of software to view the raw HTML code. This sort of tool is built in to many popular browsers. For instance, I used Google Chrome.
-
-The password is located in a comment, in the `<div id="content">` tag in the main `<body>` tag.
+Disabling Javascript reenables right clicking. Observing the raw HTML reveals a comment containing the password. It can be found in the mainbody.
 
 ```HTML
     <body>
         <h1>natas0</h1>
         <div id="content">
-            "
-            You can find th epassword for the next level on this page.
-            "
+            You can find the password for the
+            next level on this page, but rightclicking has been blocked!
 
-            <!--The password for natas1 is gtVrDuiDfck831PqWsLEZy5gyDz1clto -->
+            <!--The password for natas2 is ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi -->
 
     ...
 ```
