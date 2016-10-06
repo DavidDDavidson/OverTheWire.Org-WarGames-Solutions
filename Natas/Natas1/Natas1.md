@@ -4,7 +4,7 @@ Disabling Javascript reenables right clicking. Observing the raw HTML reveals a 
 
 ```HTML
     <body>
-        <h1>natas0</h1>
+        <h1>natas1</h1>
         <div id="content">
             You can find the password for the
             next level on this page, but rightclicking has been blocked!
